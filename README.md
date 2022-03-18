@@ -1,2 +1,2 @@
 # rsschool-cv
-Training projects for Rolling Scopes School
+Training project for Rolling Scopes School
