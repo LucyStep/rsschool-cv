@@ -37,6 +37,8 @@ I am hardworking and highly self-organized person with a strong desire to learn 
 
 ### Experience:
 
+I have no relevant job experience. But I used to work as a content manager with different Internet projects and CMS. In the beginning of my career I also worked as a lead client service manager for online English learning school.
+
 You can find some examples of my Front-end training projects in my [GitHub account](https://github.com/LucyStep).
 
 ### Languages:
