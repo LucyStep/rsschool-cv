@@ -1,2 +1,1 @@
-# rsschool-cv
-Training project for Rolling Scopes School
+https://lucystep.github.io/rsschool-cv/cv
