@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liudmila Stepura CV</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+  <div>
+    <img src="https://i.postimg.cc/ZngLCG9y/photo-1.png" alt="photo" width="250">
+    <h1>Liudmila Stepura</h1>
+    <p>Junior Front-End Developer</p>
+    <h2>Contacts:</h2>
+    <div>
+      <ul>
+        <li>
+          <a href="mailto:8090429l@gmail.com">8090429l@gmail.com</a>
+        </li>
+        <li>
+          <a href="tel:+79787500237">+7 (978) 750-02-37</a>
+        </li>
+        <li>
+          <a href="https://t.me/lucy_step">Telegram</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/liudmila-stepura-6a565a22b/">LinkedIn</a>
+        </li>
+        <li>Discord: Liudmila Stepura (@LucyStep)</li>
+      </ul>
+    </div>
+    <h2>About me:</h2>
+    <p>Entry level Front-End Developer looking for a job as a junior or intern.<br>
+      I completed the course in Front-End Development Fundamentals at the IT Training Center of Innopolis University in
+      December 2021 (HTML5, CSS3, JavaScript, React).<br>
+      In the previous 5 years, I had been producing and publishing content for various Internet projects as a Lead
+      Content
+      Manager. During this time the basic knowledge of HTML, CSS, Figma have been gained.<br>
+      I am hardworking and highly self-organized person with a strong desire to learn something new.</p>
+    <h2>Skills:</h2>
+    <h3>Technical skills:</h3>
+    <ul>
+      <li>JavaScript</li>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>Git</li>
+      <li>BEM</li>
+      <li>React</li>
+      <li>Redux</li>
+      <li>Figma</li>
+      <li>Adobe Photoshop</li>
+    </ul>
+    <h3>Experience:</h3>
+    <p>
+      I have no relevant job experience. But I used to work as a content manager with different Internet projects and
+      CMS. In the beginning of my career I also worked as a lead client service manager for online English learning
+      school.<br> You can find some examples of my Front-end training projects in my
+      <a href="https://github.com/LucyStep" target="_blank">GitHub account</a>.
+    </p>
+    <h3>Languages:</h3>
+    <ul>
+      <li>English - Upper-Intermediate (B2)</li>
+      <li>Russian, Ukrainian - Native</li>
+      <li>German - Elementary (A2)</li>
+    </ul>
+    <h2>Code example:</h2>
+    <p>
+      Given an array of integers. Return an array, where the first element is the count of positives numbers and the
+      second element is sum of negative numbers. 0 is neither positive nor negative. If the input array is empty or
+      null, return an empty array.
+    </p>
+    <pre>
+      <code>
+        function countPositivesSumNegatives(input) {
+
+          if(!Array.isArray(input) || !input.length) {
+            return [];
+          }
+        
+          const positivesCount = input.filter(input => input > 0).length;
+          const negativesSum = input.reduce((acc, item) => {
+        
+            if(item < 0) {
+              acc += item
+            }
+              return acc;
+          }, 0);
+        
+          return [positivesCount, negativesSum];
+        }
+      </code>
+    </pre>
+    <h2>Education:</h2>
+    <ul>
+      <li>2021</li>
+      <p>Front-End Development Fundamentals (Innopolis University)</p>
+      <li>2008 - 2013</li>
+      <p>Master of Economics (Crimean Economic Institute of the State University Kyiv National Economic University named
+        after Vadym Hetman, Management of Organizations)</p>
+    </ul>
+    <h3>Additional courses:</h3>
+    <ul>
+      <li>HTML, CSS - Codecademy.com, HTMLAcademy.ru, Sololearn.com;</li>
+      <li>Front-End Fundamentals - The Rolling Scopes School (in progress).</li>
+    </ul>
+  </div>
+</body>
+
+</html>
