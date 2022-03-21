@@ -1,4 +1,4 @@
-![Photo](https://i.postimg.cc/NfvjRjPV/photo-1.png)
+![Photo](https://i.postimg.cc/ZngLCG9y/photo-1.png)
 
 # **Liudmila Stepura**
 
